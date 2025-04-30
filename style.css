@@ -7,7 +7,6 @@
 }
 
 html {
-    color-scheme: dark;
     scrollbar-color: hsl(from var(--accent) h s l / .8) var(--dark-1);
     --dark-1: #1c1b22;
     --dark-2: hsl(from var(--dark-1) h s calc(l + 6));
