@@ -16,7 +16,7 @@ html {
     --accent: #ff9fc3;
 
     & ::selection {
-        background: hsl(from var(--accent) h s l / .2);
+        background: hsl(from var(--accent) h s l / .25);
     }
 }
 
