@@ -14,6 +14,10 @@ html {
     --light-1: #f0f0f4;
     --light-2: hsl(from var(--light-1) h s calc(l + 8));
     --accent: #ff9fc3;
+
+    & ::selection {
+        background: hsl(from var(--accent) h s l / .25);
+    }
 }
 
 body {
